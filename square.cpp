@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    int n;
-    cout << "Enter the square value: ";
-    cin >> n;
+    int n =4;
+    // cout << "Enter the square value: ";
+    // cin >> n;
     // cout << "----------Number Pattern----------\n";
     // for (int i = 1; i <= n; i++)
     // {
@@ -47,33 +47,32 @@ int main()
     //     cout << '\n';
     // }
     cout << "----------Triangle Pattern----------\n";
-    cout << "----------Star Pattern----------\n";
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < i + 1; j++)
-        {
-            cout << "*";
-        }
-        cout << "\n";
-    }
-    cout << "----------Number Pattern >> number === line ----------\n";
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < i + 1; j++)
-        {
-            cout << i + 1 << " ";
-        }
-        cout << "\n";
-    }
+    // cout << "----------Star Pattern----------\n";
+    // for (int i = 0; i < n; i++)
+    // {
+    //     for (int j = 0; j < i + 1; j++)
+    //     {
+    //         cout << "*";
+    //     }
+    //     cout << "\n";
+    // }
+    // cout << "----------Number Pattern >> number === line ----------\n";
+    // for (int i = 0; i < n; i++)
+    // {
+    //     for (int j = 0; j < i + 1; j++)
+    //     {
+    //         cout << i + 1 << " ";
+    //     }
+    //     cout << "\n";
+    // }
     cout << "----------Character Pattern----------\n";
-    char ch = 'A';
+
     for (int i = 0; i < n; i++)
     {
-
+        char ch = 'A' + i;
         for (int j = 0; j < i + 1; j++)
         {
             cout << ch << " ";
-            ch = ch + 1;
         }
         cout << "\n";
     }
