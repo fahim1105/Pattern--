@@ -61,7 +61,19 @@ int main()
     {
         for (int j = 0; j < i + 1; j++)
         {
-            cout << i+1  << " ";
+            cout << i + 1 << " ";
+        }
+        cout << "\n";
+    }
+    cout << "----------Character Pattern----------\n";
+    char ch = 'A';
+    for (int i = 0; i < n; i++)
+    {
+
+        for (int j = 0; j < i + 1; j++)
+        {
+            cout << ch << " ";
+            ch = ch + 1;
         }
         cout << "\n";
     }
